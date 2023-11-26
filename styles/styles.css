@@ -34,3 +34,10 @@ li {
     margin: 5px;
     padding: 5px;
 }
+
+.login-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; /* Ajusta la altura según sea necesario */
+}

@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/Icono Casa Hip Hop Med.ico" type="image/x-icon">
-    <title>INVENTARIO CASA HIP HOP MED</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Inventario Ferretería MULTI</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="Cross-Origin-Opener-Policy" content="same-origin-allow-popups">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="./scripts/login.js" defer></script>
 </head>
+
 <body>
+
     <h1>INVENTARIO CASA HIP HOP MED</h1>
+    
     <div id="login-section">
+
         <h2>Iniciar Sesión</h2>
+        <div class="login-google">
+            <div id="g_id_onload"
+                data-client_id="440778013451-4hg8nqth492vkalgnpakcv3jhmal36qd.apps.googleusercontent.com"
+                data-context="signin" data-ux_mode="popup" data-callback="handleCredentialResponse"
+                data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin" data-type="standard" data-shape="rectangular" data-theme="filled_black"
+                data-text="continue_with" data-size="large" data-logo_alignment="left">
+            </div>
+        </div>
         <form id="login-form">
             <input type="text" id="username" placeholder="Nombre de usuario" required>
             <input type="password" id="password" placeholder="Contraseña" required>
             <button type="button" onclick="login()">Iniciar Sesión</button>
         </form>
-        
-        <img src="imagenes/Icono Casa Hip Hop Med.ico" width="350" height="350"  alt=>
 
-    </div>
+        <img src="imagenes/Icono Casa Hip Hop Med.ico" width="400" height="400"  alt=>
+ </div>
     <div id="message"></div>
-    <script src="./scripts/login.js"></script>
 </body>
+
 </html>
