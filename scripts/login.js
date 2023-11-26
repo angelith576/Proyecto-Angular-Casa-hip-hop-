@@ -20,7 +20,7 @@ function login() {
 }
 window.onload = function() {
     google.accounts.id.initialize({
-      client_id:"440778013451-4hg8nqth492vkalgnpakcv3jhmal36qd.apps.googleusercontent.com";
+      client_id:"394913417892-2mtd5tln4j0c6s3uug2di73uscjilfjg.apps.googleusercontent.com",
       callback: handleCredentialResponse
 
     });
